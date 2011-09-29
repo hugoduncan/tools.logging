@@ -366,3 +366,7 @@
       warnf :warn
       errorf :error
       fatalf :fatal)))
+
+(deftest slf4j-test
+  (binding [*logger-factory* (impl/slf4j-factory)]
+    (is (info "msg"))))

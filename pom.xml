@@ -16,6 +16,27 @@
     </developer>
   </developers>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.6.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>0.9.29</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>0.9.29</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
   <scm>
     <connection>scm:git:git@github.com:clojure/tools.logging.git</connection>
     <developerConnection>scm:git:git@github.com:clojure/tools.logging.git</developerConnection>
